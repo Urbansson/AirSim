@@ -1,0 +1,27 @@
+%% -*- mode: erlang -*-
+
+%% Airports is a list of the airport names.
+{airports, ["HUB","A","B","C","D","E","F"]}.
+
+%% Flight times is a list of the format [{From,To,Time}].
+{flight_times, [{"HUB","A",60},
+		{"HUB","B",60},
+		{"HUB","C",90},
+		{"HUB","D",70},
+		{"HUB","E",70},
+		{"HUB","F",80},
+		{"A","B",70},
+		{"A","D",60},
+		{"A","E",65},
+		{"B","C",90},
+		{"B","D",40},
+		{"B","F",60},
+		{"C","E",90},
+		{"C","F",80},
+		{"D","E",60},
+		{"D","F",50},
+		{"E","F",60}
+		]}.
+
+%% Airplanes is a list of the airplane names.
+{airplanes, [p01,p02,p03,p04,p05,p06,p07,p08]}.
